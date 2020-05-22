@@ -29,9 +29,7 @@ while True:
         print("Invalid number")
     elif n >= 0 and n <= 2000:
         break #Introduced break as otherwise loop was continually asking to enter a number
-
 print(str(compute_e(n))[:n + 1])
-
 
 #Had to take str, as :n + 1 can't work with int
 #This last print statement says print the last term of list, ie in list of all summations.
